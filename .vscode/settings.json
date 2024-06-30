@@ -47,5 +47,5 @@
     "postcss"
   ],
 
-  "cSpell.ignoreWords": ["nuxt", "unocss", "antfu"]
+  "cSpell.ignoreWords": ["nuxt", "typecheck", "unocss", "antfu"]
 }
