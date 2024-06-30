@@ -1,17 +1,23 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "project-management-system",
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "nuxt": "^3.12.2",
     "vue": "latest"
   },
-  "packageManager": "pnpm@8.8.0+sha1.9922e8b650d393700209ccd81e0ebdbcbe43b0d3"
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.21.2",
+    "@unocss/eslint-plugin": "^0.61.0",
+    "eslint": "9.5.0"
+  }
 }
