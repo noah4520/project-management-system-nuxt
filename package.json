@@ -14,11 +14,19 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.400.0",
     "nuxt": "^3.12.2",
+    "radix-vue": "^1.8.5",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
     "vue": "latest"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.21.2",
+    "@nuxtjs/tailwindcss": "^6.12.0",
     "@unocss/eslint-plugin": "^0.61.0",
     "eslint": "9.5.0"
   }

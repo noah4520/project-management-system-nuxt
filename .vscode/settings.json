@@ -47,5 +47,7 @@
     "postcss"
   ],
 
-  "cSpell.ignoreWords": ["nuxt", "typecheck", "unocss", "antfu"]
+  "scss.lint.unknownAtRules": "ignore",
+
+  "cSpell.ignoreWords": ["antfu", "nuxt", "nuxtjs", "shadcn", "typecheck", "tailwindcss"]
 }
